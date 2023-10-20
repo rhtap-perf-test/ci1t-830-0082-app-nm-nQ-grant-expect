@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hloh
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0082-tenant/ci1t-830-0082-app/devfile-sample-hloh@sha256:25b659b2f54fec2b8025195bf3d65d885c20684677550d151a1718a6431d9821
         name: my-nodejs
         ports:
         - containerPort: 3001
